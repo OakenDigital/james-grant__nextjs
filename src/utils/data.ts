@@ -38,7 +38,7 @@ export const getSiteInfo = async (): Promise<SiteInformation> => {
 	// }
 
 	return {
-		...SiteInfoLocal
+		...(SiteInfoLocal as unknown as SiteInformation),
 	}
 }
 

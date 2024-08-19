@@ -11,7 +11,7 @@ export default {
     "<p>[location]<br>[phone]</p><p>Copyright © [current_year] [company_legal_name]</p>",
   footerRight:
     '<p>Custom homebuilder website by:<br><a href="https://www.oakendigital.com">Oaken Digital</a></p>',
-  madebyUrl: "https://www.oakendigital.com",
+  madeByUrl: "https://www.oakendigital.com",
   logo: {
     data: {
       id: 10,

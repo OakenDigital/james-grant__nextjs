@@ -12,7 +12,7 @@ export default interface SiteInformation {
 	navbarItems: Array<NavbarItem>
 	footerLeft: string
 	footerRight: string
-	realEstateWebsite: string
+	madeByUrl: string
 	headshot: CmsMedia
 	globalSeo: SeoData
 	formspreeContactFormId: string

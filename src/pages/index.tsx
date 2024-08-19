@@ -23,7 +23,7 @@ const HomePage = ({ siteInfo }: Props) => {
     <>
       <SEO siteInfo={siteInfo} />
       <Layout siteInfo={siteInfo}>
-        <Hero {...homePage} />
+        <Hero {...(homePage as unknown as HomePageType)} />
         <Container>
           <Stack direction={["column-reverse", "row"]}>
             <Box width={["full", "55%"]} mt={"3rem"} mr={[0, "4rem"]}>

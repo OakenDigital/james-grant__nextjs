@@ -8,8 +8,11 @@ import { ReactElement } from "react";
 
 const footerImage = (image: CmsMedia): ReactElement => (
   <Image
-    src={image.data.attributes.formats.small?.url ?? image.data.attributes.url}
-    alt={image.data.attributes.alternativeText}
+    src={
+      image?.data?.attributes?.formats?.small?.url ??
+      image?.data?.attributes?.url
+    }
+    alt={image?.data?.attributes?.alternativeText}
     display={"block"}
     height={"100%"}
     width={"auto"}

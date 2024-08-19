@@ -11,6 +11,6 @@ export default interface CmsMediaData {
 			large: {
 				url: string
 			}
-		}
+		} | null
 	}
 }
