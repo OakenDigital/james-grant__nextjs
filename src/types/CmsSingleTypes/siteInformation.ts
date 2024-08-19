@@ -14,7 +14,6 @@ export default interface SiteInformation {
 	footerRight: string
 	realEstateWebsite: string
 	headshot: CmsMedia
-	realEstateLogo: CmsMedia
 	globalSeo: SeoData
 	formspreeContactFormId: string
 }

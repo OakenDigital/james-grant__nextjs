@@ -1,4 +1,5 @@
 import SiteInformation from '../types/CmsSingleTypes/siteInformation'
+import SiteInfoLocal from '@/data/siteInfo'
 
 const baseUrl = 'https://web-hosting-291602.uk.r.appspot.com/api/'
 
@@ -15,14 +16,18 @@ const getData = async (endpoint: string) => {
 }
 
 export const getSiteInfo = async (): Promise<SiteInformation> => {
-	const [siteInfo, siteInfoWithShareImage] = await Promise.all([
-		getData('site-information?populate=*'),
-		getData('site-information?populate=globalSeo.shareImage'),
-	])
+	// const [siteInfo, siteInfoWithShareImage] = await Promise.all([
+	// 	getData('site-information?populate=*'),
+	// 	getData('site-information?populate=globalSeo.shareImage'),
+	// ])
+
+	// return {
+	// 	...siteInfo,
+	// 	globalSeo: siteInfoWithShareImage.globalSeo,
+	// }
 
 	return {
-		...siteInfo,
-		globalSeo: siteInfoWithShareImage.globalSeo,
+		...SiteInfoLocal
 	}
 }
 
