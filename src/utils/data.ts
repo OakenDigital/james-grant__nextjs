@@ -1,9 +1,20 @@
 import SiteInformation from '../types/CmsSingleTypes/siteInformation'
 import SiteInfoLocal from '@/data/siteInfo'
+import AboutUsData from '@/data/aboutUs'
+import ContactUsData from '@/data/contactPage'
 
 const baseUrl = 'https://web-hosting-291602.uk.r.appspot.com/api/'
 
 const getData = async (endpoint: string) => {
+	switch (endpoint) {
+		case 'about-us-page':
+			return AboutUsData
+		case 'contact-page':
+			return ContactUsData
+		default:
+			break
+	}
+
 	let data = (await (await fetch(baseUrl + endpoint)).json()).data
 
 	if (Array.isArray(data)) {

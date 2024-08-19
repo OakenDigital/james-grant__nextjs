@@ -26,7 +26,7 @@ export default {
         formats: {
           large: {
             ext: ".jpg",
-            url: "https://cwaprwdhthpkldgwaysx.supabase.co/storage/v1/object/public/strapi-uploads/large_site-image.jpg-412d1f888081fbd796df74a42b039f45.jpg",
+            url: "https://res.cloudinary.com/oaken/image/upload/w_1600/v1724088205/james-grant/hero.jpg",
             hash: "412d1f888081fbd796df74a42b039f45",
             mime: "image/jpeg",
             name: "large_site-image.jpg",
@@ -37,7 +37,7 @@ export default {
           },
           small: {
             ext: ".jpg",
-            url: "https://cwaprwdhthpkldgwaysx.supabase.co/storage/v1/object/public/strapi-uploads/small_site-image.jpg-76955dd8781b279315a3d933e11b68e2.jpg",
+            url: "https://res.cloudinary.com/oaken/image/upload/w_500/v1724088205/james-grant/hero.jpg",
             hash: "76955dd8781b279315a3d933e11b68e2",
             mime: "image/jpeg",
             name: "small_site-image.jpg",
@@ -48,7 +48,7 @@ export default {
           },
           medium: {
             ext: ".jpg",
-            url: "https://cwaprwdhthpkldgwaysx.supabase.co/storage/v1/object/public/strapi-uploads/medium_site-image.jpg-e88b4a486fe8c638aab0ef51c6c82625.jpg",
+            url: "https://res.cloudinary.com/oaken/image/upload/w_750/v1724088205/james-grant/hero.jpg",
             hash: "e88b4a486fe8c638aab0ef51c6c82625",
             mime: "image/jpeg",
             name: "medium_site-image.jpg",
@@ -59,7 +59,7 @@ export default {
           },
           xsmall: {
             ext: ".jpg",
-            url: "https://cwaprwdhthpkldgwaysx.supabase.co/storage/v1/object/public/strapi-uploads/xsmall_site-image.jpg-aa98ee58eb7238dcdad29f40b5152a71.jpg",
+            url: "https://res.cloudinary.com/oaken/image/upload/w_64/v1724088205/james-grant/hero.jpg",
             hash: "aa98ee58eb7238dcdad29f40b5152a71",
             mime: "image/jpeg",
             name: "xsmall_site-image.jpg",
@@ -70,7 +70,7 @@ export default {
           },
           thumbnail: {
             ext: ".jpg",
-            url: "https://cwaprwdhthpkldgwaysx.supabase.co/storage/v1/object/public/strapi-uploads/thumbnail_site-image.jpg-63ca990efec94b34b4f78ae742a7cfcc.jpg",
+            url: "https://res.cloudinary.com/oaken/image/upload/w_208/v1724088205/james-grant/hero.jpg",
             hash: "63ca990efec94b34b4f78ae742a7cfcc",
             mime: "image/jpeg",
             name: "thumbnail_site-image.jpg",
@@ -84,7 +84,7 @@ export default {
         ext: ".jpg",
         mime: "image/jpeg",
         size: 99.5,
-        url: "https://cwaprwdhthpkldgwaysx.supabase.co/storage/v1/object/public/strapi-uploads/site-image.jpg-daf732184977b3d8cc70db4497af24ec.jpg",
+        url: "https://res.cloudinary.com/oaken/image/upload/w_1600/v1724088205/james-grant/hero.jpg",
         previewUrl: null,
         provider: "strapi-provider-upload-supabase",
         provider_metadata: null,

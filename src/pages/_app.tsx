@@ -8,7 +8,7 @@ export const theme = extendTheme({
     lg: "80rem",
   },
   colors: {
-    brandLight: "#D8A9A9",
+    brandLight: "#E5CCCC",
     brand: "#A82D2D",
     brandDark: "#722424",
   },

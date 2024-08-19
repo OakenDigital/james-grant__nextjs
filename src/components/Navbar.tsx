@@ -15,15 +15,12 @@ import Container from "./Container";
 import Link from "next/link";
 import SiteInformation from "../types/CmsSingleTypes/siteInformation";
 import NavbarItem from "../types/navbarItem";
-import navData from "@/data/navigation";
 
 type Props = {
   siteInfo: SiteInformation;
 };
 const Navbar = ({ siteInfo }: Props) => {
   const { isOpen, onToggle } = useDisclosure();
-
-  siteInfo.navbarItems = navData;
 
   return (
     <Box backgroundColor="white">
